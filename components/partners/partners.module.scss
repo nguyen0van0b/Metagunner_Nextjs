@@ -1,0 +1,25 @@
+
+.partners {
+    & .container {
+        max-width: 1000px;
+    }
+    & h2 {
+        font-size: 5rem;
+        color: var(--color_text_white);
+        text-align: center;
+        text-transform: uppercase;
+    }
+    & span {
+        color: var(--color_primary);
+    }
+    &Wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 100px;
+        & * {
+            width: 25%;
+            margin: 20px calc(25% / 6);
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.NFTsItem{
+    overflow: hidden;
+    background-image: url(../../public/assets/bg_features2.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &Title{
+        margin: 3% auto;
+        width: 26%;
+    }
+    &Slider{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 3%;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .NFTsItem{
+        &Title{
+            width: 50%;
+        }
+        &SliderWeapon{
+            margin-bottom: 100px;
+        }
+    }
+}

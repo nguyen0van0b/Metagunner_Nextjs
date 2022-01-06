@@ -1,0 +1,163 @@
+
+.Advisors {
+    overflow: hidden;
+    background-image: url(../../public/assets/bg_features2.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &Title{
+        width: 26%;
+        margin: auto;
+        margin-bottom: 4%;
+        margin-top: 25px;
+    }
+    &Wrapper {
+        &Top{
+            margin: auto;
+            // display: grid;
+            // gap: 5%;
+            // grid-template-columns: repeat(auto-fit, minmax(calc(360px - 5%), calc(770px - 5%)));
+            // justify-content: center;
+            display: flex;
+            margin-bottom: 5%;
+            justify-content: center;
+            flex-wrap: wrap;
+            &Item {
+                width: 35%;
+                min-width: 570px;
+                text-align: center;
+                display: flex;
+                &Top {
+                    width: 55%;
+                }
+                &Bottom {
+                    margin-top: 1rem;
+                    width: 45%;
+                    text-align: left;
+                    padding-left: 20px;
+                    & .name{
+                        font-size: 2rem;
+                        color: var(--color_text_white);
+                        margin-bottom: 5px;
+                    }
+                    & .position{
+                        font-size: 18px;
+                        color: var(--color_text_white);
+                        font-style: italic;
+                        margin-bottom: 25px;
+                    }
+                    & .background{
+                        font-size: 19px;
+                        font-weight: 200;
+                        line-height: 1.2;
+                        color: var(--color_text_white);
+                    }
+                }
+            }
+        }
+        &Bottom{
+            max-width: 1500px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            // display: grid;
+            // gap: 5%;
+            // grid-template-columns: repeat(auto-fit, minmax(calc(300px - 10%), calc(350px - 10%)));
+            // justify-content: center;
+            margin-bottom: 10%;
+            &Item{
+                width: 20%;
+                min-width: 250px;
+                &Top{
+                    width: 80%;
+                    margin: auto;
+                }
+                &Bottom {
+                    margin-top: 1rem;
+                    text-align: left;
+                    // padding-left: 20px;
+                    text-align: center;
+                    & .name{
+                        font-size: 1.4rem;
+                        color: var(--color_text_white);
+                        margin-bottom: 5px;
+                    }
+                    & p {
+                        font-size: 16px;
+                        color: var(--color_text_white);
+                        font-style: italic;
+                    }
+            }
+            }
+        }
+    }
+        
+}
+
+// @media screen and (max-width: 1352px) {
+//     .Advisors {
+//         &Wrapper {
+//             &Top {
+//             margin-bottom: 25%;
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 1025px) {
+//     .Advisors {
+//         &Wrapper{
+//             &Top ,&Bottom {
+//             margin-bottom: 45%;
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 785px) {
+//     .Advisors {
+//         &Wrapper {
+//             margin-bottom: 70%;
+//         }
+//     }
+// }
+
+@media screen and (max-width: 685px) {
+    .Advisors {
+        &Wrapper {
+            gap: 2%;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Advisors {
+        &Title {
+            width: 60%;
+        }
+        &WrapperTop{
+            gap: 1%;
+            &Item{
+                flex-direction:column;
+                width: 100%;
+                min-width: auto;
+                &Top{
+                    width: 80%;
+                    margin: auto;
+                }
+                &Bottom{
+                    width: 80%;
+                    margin: auto;
+                }
+            }
+        }
+        &WrapperBottom{
+            gap: 1%;
+            &Item{
+                width: 80%;
+            }
+        }
+    }
+}

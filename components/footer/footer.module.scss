@@ -1,0 +1,147 @@
+
+.footer {
+    // background: url(../media/footer-bg.39ea1e2a.png);
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // margin-bottom: -50px;
+    display: flex;
+    &Wrapper {
+        width: 60%;
+        text-align: center;
+        padding-bottom: 40px;
+        &Logo {
+            width: 30%;
+            margin: auto;
+        }
+        & p {
+            color: var(--color_text_white);
+            margin-bottom: 40px;
+        }
+        &Social{ 
+            margin-bottom: 20px;
+            & img {
+            width: 2vw;
+            height: 2vw;
+            margin: 10px;
+        }}
+        &Nav {
+            display: flex;
+            justify-content: space-around;
+            color: var(--color_primary);
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+            & li {
+                font-weight: 600;
+                position: relative;
+            }
+            & li::after {
+                content: "";
+                background: url(../../public/assets/telegram.svg);
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: contain;
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                position: absolute;
+                right: -30px;
+                transition: all 1s ease;
+            }
+            & li:hover::after {
+                right: -20px;
+            }
+        }
+    }
+    &Menu{
+        width: 40%;
+        color: var(--color_text_white);
+        display: flex;
+        align-items:flex-start;
+        padding: 4%;
+        &About{
+            width: 35%;
+            & h2{
+                margin-bottom: 20px;
+            }
+            & ul{
+                list-style: none;
+                & li {
+                    margin-bottom: 5px;
+                    font-size: 17px;
+                    & a{
+                        color: var(--color_text_white);
+                        text-decoration: none
+                    }
+                }
+            }
+        }
+        &FAQ{
+            width: 65%;
+            & h2{
+                margin-bottom: 20px;
+            }
+            & ul{
+                list-style: none;
+                & li{
+                    margin-bottom: 5px;
+                    font-size: 17px;
+                    & a{
+                        color: var(--color_text_white);
+                        text-decoration: none
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .footerWrapperSocial{ 
+                & img {
+                width: 4vw;
+                height: 4vw;
+        }
+    }
+}
+@media screen and (max-width:1025px) {
+    .footer {
+        flex-direction:column;
+        align-items:center;
+        &Menu{
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width:500px) {
+    .footerMenu{
+        &FAQ ul li,
+        &About ul li{
+           font-size: 15px;
+            }
+        }
+    .footerWrapper{
+        &Logo {
+        width: 80%;
+        }
+        &Social{ 
+                & img {
+                width: 7vw;
+                height: 7vw;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+    .footerWrapper{
+        width: 80%;
+        &Social{ 
+                & img {
+                width: 7vw;
+                height: 7vw;
+                margin: 5px;
+            }
+        }
+    }
+}

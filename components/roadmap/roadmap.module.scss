@@ -1,0 +1,67 @@
+
+
+.roadmap{
+    overflow: hidden;
+    background-image: url(../../public/assets/bg_features2.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -6px;
+    &Container{
+        position: absolute;
+        left: 50%;
+        height: 20% !important;
+        transform: translate(-50%,0);
+        z-index: 1;
+    }
+    &Title{
+        position: absolute;
+        width: 26%;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    &Wrapper{
+        display: flex;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        &Item{
+            width: 20%;
+        }
+    }
+}
+@media screen and (max-width:1025px) {
+    .roadmap{
+        &Wrapper{
+            &Item{
+                width: 20%;
+            }
+        }
+    }
+}
+@media screen and (max-width:769px) {
+    .roadmap{
+        &Wrapper{
+            &Item{
+                width: 40%;
+            }
+        }
+    }
+}
+@media screen and (max-width:500px) {
+    .roadmap{
+        &Title{
+            top: 10%;
+            width: 60%;
+        }
+        &Wrapper{
+            margin-top: 200px;
+            &Item{
+                width: 80%;
+            }
+        }
+    }
+}

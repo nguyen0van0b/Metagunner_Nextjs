@@ -1,0 +1,44 @@
+.Vidwrapper{
+    overflow: hidden;
+    position: relative;
+    & .banner_PC{
+        position: relative;
+        height: 50vw;
+        & img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+        }
+        & .img5{
+            width: 100vw;
+            height: 140px;
+            position: absolute;
+            bottom: -50px;
+            top: auto;
+            left: 0;
+            display: block;
+        }
+    }
+    & .banner_MB{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .Vidwrapper{
+        & .banner_PC{
+            display: none;
+            & img{
+                display: block;
+            }
+        }
+        & .banner_MB{
+            display: block;
+            width: 100%;
+        }
+
+    }
+}

@@ -1,0 +1,223 @@
+
+.communities {
+    position: relative;
+    &Social {
+        width: 60%;
+        height: 30%;
+        position: absolute;
+        top: 22%;
+        left: 19%;
+        text-align: center;
+        & img {
+            width: 3vw;
+            height: 3vw;
+        }
+        & span {
+            color: var(--color_text_white);
+            display: block;
+            text-transform: uppercase;
+            font-size: 1.3rem;
+            font-weight: 800;
+            margin-top: 30px;
+        }
+        & p {
+            font-weight: 600;
+        }
+        &Telegram {
+            position: absolute;
+            top: 37%;
+            left: 12%;
+            color: var(--bg_social_tele);
+            z-index: 1;
+            &::before {
+                content: "";
+                background-color: var(--bg_social_tele);
+                width: 7vw;
+                height: 7vw;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                z-index: -1;
+                border-radius: 50%;
+                transform: translate(-50%, calc(-50% + 1.5vw));
+            }
+            &::after {
+                content: "";
+                background-color: var(--bg_social_tele);
+                width: 7vw;
+                height: 7vw;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                z-index: -1;
+                border-radius: 50%;
+                transform: translate(-50%, calc(-50% + 1.5vw));
+                animation: animationsocial 2s infinite 2s;
+            }
+        }
+        &Discord {
+            position: absolute;
+            top: 55%;
+            left: 30%;
+            color: var(--bg_social_Disc);
+            z-index: 1;
+            &::before {
+                content: "";
+                background-color: var(--bg_social_Disc);
+                width: 7vw;
+                height: 7vw;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                z-index: -1;
+                border-radius: 50%;
+                transform: translate(-50%, calc(-50% + 1.5vw));
+            }
+            &::after {
+                content: "";
+                background-color: var(--bg_social_Disc);
+                width: 7vw;
+                height: 7vw;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                z-index: -1;
+                border-radius: 50%;
+                transform: translate(-50%, calc(-50% + 1.5vw));
+                animation: animationsocial 2s infinite;
+            }
+        }
+        &Twitter {
+            position: absolute;
+            top: 40%;
+            left: 47%;
+            color: var(--bg_social_TW);
+            z-index: 1;
+            &::before {
+                content: "";
+                background-color: var(--bg_social_TW);
+                width: 7vw;
+                height: 7vw;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                z-index: -1;
+                border-radius: 50%;
+                transform: translate(-50%, calc(-50% + 1.5vw));
+            }
+            &::after {
+                content: "";
+                background-color: var(--bg_social_TW);
+                width: 7vw;
+                height: 7vw;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                z-index: -1;
+                border-radius: 50%;
+                transform: translate(-50%, calc(-50% + 1.5vw));
+                animation: animationsocial 2s infinite 2s;
+            }
+        }
+        &Github {
+            position: absolute;
+            top: 40%;
+            left: 66%;
+            color: var(--bg_social_Git);
+            z-index: 1;
+            &::before {
+                content: "";
+                background-color: var(--bg_social_Git);
+                width: 7vw;
+                height: 7vw;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                z-index: -1;
+                border-radius: 50%;
+                transform: translate(-50%, calc(-50% + 1.5vw));
+            }
+            &::after {
+                content: "";
+                background-color: var(--bg_social_Git);
+                width: 7vw;
+                height: 7vw;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                z-index: -1;
+                border-radius: 50%;
+                transform: translate(-50%, calc(-50% + 1.5vw));
+                animation: animationsocial 2s infinite;
+            }
+        }
+        &Medium {
+            position: absolute;
+            top: 20%;
+            left: 82%;
+            color: var(--bg_social_Medium);
+            z-index: 1;
+            &::before {
+                content: "";
+                background-color: var(--bg_social_Medium);
+                width: 7vw;
+                height: 7vw;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                z-index: -1;
+                border-radius: 50%;
+                transform: translate(-50%, calc(-50% + 1.5vw));
+            }
+            &::after {
+                content: "";
+                background-color: var(--bg_social_Medium);
+                width: 7vw;
+                height: 7vw;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                z-index: -1;
+                border-radius: 50%;
+                transform: translate(-50%, calc(-50% + 1.5vw));
+                animation: animationsocial 2s infinite 2s;
+            }
+        }
+    }
+}
+
+
+@keyframes animationsocial {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(2.5) translate(-20%, calc(-20% + 0.75vw));
+    }
+}
+
+.partners {
+    & .container {
+        max-width: 1000px;
+    }
+    & h2 {
+        font-size: 5rem;
+        color: var(--color_text_white);
+        text-align: center;
+        text-transform: uppercase;
+    }
+    & span {
+        color: var(--color_primary);
+    }
+    &Wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 100px;
+        & * {
+            width: 25%;
+            margin: 20px calc(25% / 6);
+        }
+    }
+}

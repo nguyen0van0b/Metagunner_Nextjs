@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import style from "./about.module.scss";
 import clsx from "clsx";
-const urlimg5 = "/assets/metagunner-namngang.png";
-const urlImgBg = "/assets/banner-9.png";
+const urlimg5 = "/assets/metagunner-namngang.webp";
+const urlImgBg = "/assets/banner-9.webp";
 
 function About() {
   useEffect(() => {

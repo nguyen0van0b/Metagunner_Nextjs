@@ -1,11 +1,12 @@
 
 .tokenomics {
     overflow: hidden;
-    background-image: url(../../public/assets/bg_features.png);
+    background-image: url(../../public/assets/bg_features.webp);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    padding-top: 80px;
     &Wrapper {
         position: relative;
         font-size: 1.5rem;

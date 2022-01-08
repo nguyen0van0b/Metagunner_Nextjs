@@ -15,13 +15,13 @@ function Investors(){
             <div className='container'>
                 <h2 className='title' data-aos="fade-up">our <span>investors</span></h2>
                 <div className={style.investorsWrapper} data-aos="flip-down" data-aos-delay="300">
-                    {/* <img src={imgSC} alt=""/>
-                    <img src={imgRC} alt=""/>
-                    <img src={imgIL} alt=""/>
-                    <img src={imgEC} alt=""/>
-                    <img src={imgMagnus} alt=""/>
-                    <img src={imgX21} alt=""/>
-                    <img src={imgMC} alt=""/> */}
+                    {/* <Image src={imgSC} alt=""/>
+                    <Image src={imgRC} alt=""/>
+                    <Image src={imgIL} alt=""/>
+                    <Image src={imgEC} alt=""/>
+                    <Image src={imgMagnus} alt=""/>
+                    <Image src={imgX21} alt=""/>
+                    <Image src={imgMC} alt=""/> */}
                 </div>
             </div>
         </section>

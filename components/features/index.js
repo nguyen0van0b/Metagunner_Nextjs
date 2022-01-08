@@ -1,17 +1,16 @@
 import style from "./features.module.scss";
 import clsx from "clsx";
-const urlFEATURES = "/assets/GAME-FEATURES.png";
-const urlImgCam = "/assets/CampaignMode.jpg";
-const urlImgArena = "/assets/Arena_Mode.jpg";
-const urlImgUpgrade = "/assets/FEATURES4.jpg";
-const urlImgRank = "/assets/RANKING.png";
+const urlFEATURES = "/assets/GAME-FEATURES.webp";
+const urlImgCam = "/assets/CampaignMode.webp";
+const urlImgArena = "/assets/Arena_Mode.webp";
+const urlImgUpgrade = "/assets/FEATURES4.webp";
+const urlImgRank = "/assets/RANKING.webp";
 
 function Features() {
   return (
     <section className={style.features} id="features">
       <div className="container">
         <div className={style.featuresTitle}>
-          {/* <h2 className={style.title} data-aos="fade-up" data-aos-once="true">GAME<span> FEATURES</span></h2> */}
           <img
             src={urlFEATURES}
             alt=""

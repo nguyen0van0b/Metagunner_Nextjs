@@ -5,14 +5,14 @@ import Slider from "react-slick";
 import style from "./characterMB.module.scss"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-const url1 = "assets/media/Gunner.png"
-const url2 = "assets/media/Scout.png"
-const url3 = "assets/media/Sniper.png"
-const url4 = "assets/media/special-force.png"
-const url5 = "assets/media/destroyer.png"
-const url6 = "assets/media/Medic.png"
-const url7 = "assets/media/Officer.png"
-const urlCHARACTER = "assets/media/CHARACTER.png"
+const url1 = "assets/Gunner.webp"
+const url2 = "assets/Scout.webp"
+const url3 = "assets/Sniper.webp"
+const url4 = "assets/special-force.webp"
+const url5 = "assets/destroyer.webp"
+const url6 = "assets/Medic.webp"
+const url7 = "assets/Officer.webp"
+const urlCHARACTER = "assets/CHARACTER.webp"
 
 
 function SampleNextArrow(props) {

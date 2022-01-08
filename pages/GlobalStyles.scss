@@ -130,12 +130,12 @@ video {
     font-weight: 700;
     font-size: 30px;
     &Primary {
-    background-image: url('../public/assets/blue_button.png');
+    background-image: url('../public/assets/blue_button.webp');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     }
     &Secondary {
-        background-image: url('../public/assets/red_button.png');
+        background-image: url('../public/assets/red_button.webp');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     }
@@ -152,14 +152,14 @@ video {
         color: var(--color_primary);
     }
 }
-// import urlNext from "../../public/assets/next.png"
-// import urlprev from "../../public/assets/prev.png"
+// import urlNext from "../../public/assets/next.webp"
+// import urlprev from "../../public/assets/prev.webp"
 .slick-slide div {
     outline: none;
    }
 .slick-next:before{
     content: '' !important;
-    background-image: url('../public/assets/next.png') !important;
+    background-image: url('../public/assets/next.webp') !important;
     background-position: center right !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -172,7 +172,7 @@ video {
 {
     content: '' !important;
     // position: absolute;
-    background-image: url('../public/assets/prev.png') !important;
+    background-image: url('../public/assets/prev.webp') !important;
     background-position: center right !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -188,13 +188,13 @@ video {
     font-size:10px;
 }
 // .slick-next{
-//     background-image: url('../public/assets/next.png') !important;
+//     background-image: url('../public/assets/next.webp') !important;
 //     background-position: center right !important;
 //     background-repeat: no-repeat !important;
 //     background-size: cover !important;
 // }
 // .slick-prev{
-//     background-image: url('../public/assets/prev.png') !important;
+//     background-image: url('../public/assets/prev.webp') !important;
 //     background-position: center !important;
 //     background-repeat: no-repeat !important;
 //     background-size: cover !important;

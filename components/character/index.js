@@ -1,12 +1,3 @@
-// import urlgif from "../../media/1-unscreen.gif"
-// import url1 from "../../media/1.png"
-// import url1 from "../../media/Gunner.png"
-// import url2 from "../../media/Scout.png"
-// import url3 from "../../media/Sniper.png"
-// import url4 from "../../media/Special_force.png"
-// import url5 from "../../media/Picture1.png"
-// import url6 from "../../media/Medic.png"
-// import url7 from "../../media/Officer.png"
 import clsx from "clsx";
 import React, { Component } from "react";
 import Slider from "react-slick";
@@ -20,7 +11,7 @@ const urlvideo4 = "/assets/0004.mp4";
 const urlvideo5 = "/assets/0005.mp4";
 const urlvideo6 = "/assets/0006.mp4";
 const urlvideo7 = "/assets/0007.mp4";
-const urlCHARACTER = "/assets/CHARACTER.png";
+const urlCHARACTER = "/assets/CHARACTER.webp";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -212,38 +203,6 @@ export default class AsNavFor extends Component {
             ></video>
           </div>
         </Slider>
-        {/* <Slider
-          asNavFor={this.state.nav1}
-          ref={slider => (this.slider2 = slider)}
-          slidesToShow={4}
-          swipeToSlide={true}
-          focusOnSelect={true}
-          variableWidth= {true}
-          className={style.characterFirstSlider}
-          {...settings2}
-        >
-          <div style={{width:'calc(100% / 10 )'}}>
-                <img src={url1} alt=""/>
-          </div>
-          <div style={{width:'calc(100% / 10 )'}}>
-                <img src={url2} alt=""/>
-          </div>
-          <div style={{width:'calc(100% / 10 )'}}>
-                <img src={url3} alt=""/>
-          </div>
-          <div style={{width:'calc(100% / 10 )'}}>
-                <img src={url4} alt=""/>
-          </div>
-          <div style={{width:'calc(100% / 10 )'}}>
-                <img src={url5} alt=""/>
-          </div>
-          <div style={{width:'calc(100% / 10 )'}}>
-                <img src={url6} alt=""/>
-          </div>
-          <div style={{width:'calc(100% / 10 )'}}>
-                <img src={url7} alt=""/>
-          </div>
-        </Slider> */}
       </section>
     );
   }

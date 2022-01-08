@@ -1,5 +1,5 @@
 .features {
-    background-image: url(../../public/assets/bg_features.png);
+    background-image: url(../../public/assets/bg_features.webp);
     object-fit: cover;
     background-position: center ;
     background-repeat: no-repeat;
@@ -11,6 +11,9 @@
         width: 26%;
         margin: auto;
         margin-bottom: 30px;
+        & img{
+            margin-top: 80px;
+        }
     }
     &Wrapper {
         // display: grid;

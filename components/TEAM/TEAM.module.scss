@@ -1,16 +1,16 @@
 
 .Advisors {
     overflow: hidden;
-    background-image: url(../../public/assets/bg_features2.jpg);
+    background-image: url(../../public/assets/bg_features2.webp);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    padding-top: 80px;
     &Title{
         width: 26%;
         margin: auto;
         margin-bottom: 4%;
-        margin-top: 25px;
     }
     &Wrapper {
         &Top{
@@ -48,7 +48,7 @@
                         margin-bottom: 25px;
                     }
                     & .background{
-                        font-size: 19px;
+                        font-size: 16px;
                         font-weight: 200;
                         line-height: 1.2;
                         color: var(--color_text_white);
@@ -106,15 +106,11 @@
 //     }
 // }
 
-// @media screen and (max-width: 1025px) {
-//     .Advisors {
-//         &Wrapper{
-//             &Top ,&Bottom {
-//             margin-bottom: 45%;
-//             }
-//         }
-//     }
-// }
+@media screen and (max-width: 1025px) {
+    .background{
+            font-size: 15px !important;
+    }
+}
 
 // @media screen and (max-width: 785px) {
 //     .Advisors {

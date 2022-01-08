@@ -2,7 +2,7 @@
 
 .roadmap{
     overflow: hidden;
-    background-image: url(../../public/assets/bg_features2.jpg);
+    background-image: url(../../public/assets/bg_features2.webp);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,13 +18,13 @@
     &Title{
         position: absolute;
         width: 26%;
-        top: 20%;
+        top: 80px;
         left: 50%;
         transform: translate(-50%, 0);
     }
     &Wrapper{
         display: flex;
-        margin-top: 150px;
+        margin-top: 200px;
         margin-bottom: 50px;
         justify-content: space-evenly;
         flex-wrap: wrap;
@@ -54,7 +54,7 @@
 @media screen and (max-width:500px) {
     .roadmap{
         &Title{
-            top: 10%;
+            top: 80px;
             width: 60%;
         }
         &Wrapper{

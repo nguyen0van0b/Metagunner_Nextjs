@@ -1,6 +1,6 @@
 .NFTsItem{
     overflow: hidden;
-    background-image: url(../../public/assets/bg_features2.jpg);
+    background-image: url(../../public/assets/bg_features2.webp);
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,6 +8,7 @@
     &Title{
         margin: 3% auto;
         width: 26%;
+        margin-top: 80px;
     }
     &Slider{
         width: 80%;

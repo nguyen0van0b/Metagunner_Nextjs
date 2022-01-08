@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import clsx from "clsx";
 import Image from 'next/image';
 import style from "./header.module.scss";
-const urlBtn = "/assets/orange_button.png";
+const urlBtn = "/assets/orange_button.webp";
 const imgTelegram = "/assets/telegram.svg";
 const imgDiscord = "/assets/discord.svg";
 const imgTwitter = "/assets/twitter.svg";
@@ -32,6 +32,9 @@ function Header() {
       window.removeEventListener("resize", handleResize);
     };
   });
+  const handleScrollTop = () =>{
+      window.scrollTo(0, 0)
+  };
   // useEffect(()=>{
   //     const handleResize = ()=>{
   //         if(window.innerWidth>1000){
@@ -68,7 +71,7 @@ function Header() {
           id="navbarContainer"
         >
           <div className={style.headerContainerLogo}>
-            <img src={`/assets/Logo.png`} alt="logo" />
+            <img src={`/assets/Logo.webp`} alt="logo" onClick={handleScrollTop} />
           </div>
           <div
             className={clsx(style.headerContainerMenu, {

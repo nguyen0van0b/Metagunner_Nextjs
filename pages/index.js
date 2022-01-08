@@ -29,24 +29,18 @@ import Layout from "../components/layout";
 import { useEffect, useState } from "react";
 
 function Home() {
-  const [show, setShow] = useState(true);
-  const [showMB, setShowMB] = useState(false);
+  const [show, setShow] = useState(false);
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 500) {
-        setShowMB(false);
         setShow(true);
       } else {
-        setShowMB(true);
         setShow(false);
       }
     };
-    window.addEventListener("scroll", handleResize);
-    //cleanup func
-    return () => {
-      window.removeEventListener("scroll", handleResize);
-    };
-  }, []);
+    window.onpaint =  handleResize();
+  });
   return (
     <Layout>
       <Header />
@@ -55,20 +49,10 @@ function Home() {
       <Features />
       <NFTsItem />
       {show && <Character />}
-      {showMB && <CharacterMB />}
+      {!show && <CharacterMB />}
       <Basecamp />
       <Roadmap />
       <Tokenomics />
-      {/*<Features />
-      <NFTsItem />
-      {show && <Character />}
-      {showMB && <CharacterMB />
-      <Basecamp />
-      <Roadmap />
-      <Tokenomics /> */}
-      {/* <Communities/>
-      <Partners/>
-      <Investors/> */}
       <TEAM />
       <Footer />
     </Layout>

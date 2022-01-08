@@ -1,11 +1,11 @@
-// import urlImg1 from '../../media/game_gallery_02.94e6dc69.png'
+// import urlImg1 from '../../media/game_gallery_02.94e6dc69.webp'
 import style from './roadmap.module.scss'
 import clsx from 'clsx'
-const urlTitle = '/assets/Roadmap.png'
-const urlItem1 = '/assets/Q4_2021.png'
-const urlItem2 = '/assets/Q1_2022.png'
-const urlItem3 = '/assets/Q2_2022.png'
-const urlItem4 = '/assets/Q3_2022.png'
+const urlTitle = '/assets/Roadmap.webp'
+const urlItem1 = '/assets/Q4_2021.webp'
+const urlItem2 = '/assets/Q1_2022.webp'
+const urlItem3 = '/assets/Q2_2022.webp'
+const urlItem4 = '/assets/Q3_2022.webp'
 
 function Roadmap(){
     return(

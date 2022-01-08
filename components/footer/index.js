@@ -1,5 +1,5 @@
 import style from './footer.module.scss'
-const imgLogo = '/assets/Logo.png'
+const imgLogo = '/assets/Logo.webp'
 const imgTelegram = '/assets/telegram.svg'
 const imgDiscord = '/assets/discord.svg'
 const imgTwitter = '/assets/twitter.svg'
@@ -35,6 +35,7 @@ function Footer(){
                     <h2>ABOUT</h2>
                     <ul>
                         <li><a href="#features">FEATURES</a></li>
+                        <li><a href="#NFTsItem">NFT CARD</a></li>
                         <li><a href="#character">CHARACTER</a></li>
                         <li><a href="#roadmap">ROADMAP</a></li>
                         <li><a href="#tokenomics">TOKENOMICS</a></li>

@@ -1,12 +1,12 @@
 import { useEffect } from 'react'
 // import urlvideo from '../../media/metagunner_clip_banner.mp4'
-// import urlLogo from '../../media/Logo.png'
+// import urlLogo from '../../media/Logo.webp'
 import style from './vidwrapper.module.scss'
-const urlimg1 = '/assets/layer1.png'
-const urlimg2 = '/assets/layer2.png'
-const urlimg3 = '/assets/layer3.png'
-const urlimg4 = '/assets/layer4.png'
-const urlimgmb = '/assets/metagunner_banner_500.png'
+const urlimg1 = '/assets/layer1.webp'
+const urlimg2 = '/assets/layer2.webp'
+const urlimg3 = '/assets/layer3.webp'
+const urlimg4 = '/assets/layer4.webp'
+const urlimgmb = '/assets/metagunner_banner_500.webp'
 
 function Vidwrapper(){
     useEffect(()=>{
@@ -43,9 +43,9 @@ function Vidwrapper(){
             {/* <video src={urlvideo} autoplay='autoplay' muted='muted' loop='loop' className='image1'></video> */}
             <div className={style.banner_PC}>
             <img src={urlimg1} className='image1' data-value="5" alt="" style={{width:'110%',marginLeft:'-5%'}}/>
-            <img src={urlimg2} className='image2' data-value="5" alt=""  style={{width:'110%',marginLeft:'-5%'}}/>
+            <img src={urlimg2} className='image2' data-value="5" alt=""  style={{width:'110%',top:'50px',marginLeft:'-5%'}}/>
             <img src={urlimg3} className='image3' data-value="5" alt=""  style={{width:'100%'}}/>
-            <img src={urlimg4} className='image4' data-value="5" alt="" style={{width:'100%',marginLeft:'3.5%'}}/>
+            <img src={urlimg4} className='image4' data-value="5" alt="" style={{width:'100%',top:'50px',marginLeft:'3.5%'}}/>
             {/* <img src={urlLogo} alt="logo" className={style.image5} style={{width:'40%',margin:'auto'}}/> */}
             </div>
             <div className={style.banner_MB}>

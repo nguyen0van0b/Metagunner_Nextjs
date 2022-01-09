@@ -32,7 +32,7 @@
             height: 7vw;
             transform: translate(0,-70%);
         }
-        & p {
+        & h1 {
             color: var(--color_text_white);
             font-size: 1.2rem;
             // max-width: 470px;
@@ -85,12 +85,12 @@
 }
 @media screen and (max-width: 500px) {
     .imgBg{
-        content: url(../../public/assets/banner-9-mb.webp);
+        content: url(../../public/assets/banner-mb_Metagunner.webp);
     }
     .about {
         margin-top: -20px;
         &Wrapper {
-            & p {
+            & h1 {
                 font-size: 1rem;
             }
     }

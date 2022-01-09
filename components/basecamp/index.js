@@ -1,9 +1,9 @@
 import style from './basecamp.module.scss'
 import clsx from 'clsx';
 import React from "react";
-const urlVideo = '/assets/basecamp_vid.mp4'
-const urlimg = '/assets/Basecamp.webp'
-const urlimgmb = '/assets/basecamp-500x700.webp'
+const urlVideo = '/assets/basecamp_Metagunner.mp4'
+const urlimg = '/assets/basecamp_Metagunner.webp'
+const urlimgmb = '/assets/basecamp-mb_Metagunner.webp'
 
 function Basecamp(){
     return(

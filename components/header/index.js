@@ -71,7 +71,7 @@ function Header() {
           id="navbarContainer"
         >
           <div className={style.headerContainerLogo}>
-            <img src={`/assets/Logo.webp`} alt="logo" onClick={handleScrollTop} />
+            <img src={`/assets/Logo_Metagunner.webp`} alt="logo" onClick={handleScrollTop} />
           </div>
           <div
             className={clsx(style.headerContainerMenu, {

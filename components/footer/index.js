@@ -1,5 +1,5 @@
 import style from './footer.module.scss'
-const imgLogo = '/assets/Logo.webp'
+const imgLogo = '/assets/Logo_Metagunner.webp'
 const imgTelegram = '/assets/telegram.svg'
 const imgDiscord = '/assets/discord.svg'
 const imgTwitter = '/assets/twitter.svg'

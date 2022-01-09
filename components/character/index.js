@@ -4,14 +4,14 @@ import Slider from "react-slick";
 import style from "./character.module.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-const urlvideo1 = "/assets/0001.mp4";
-const urlvideo2 = "/assets/0002.mp4";
-const urlvideo3 = "/assets/0003.mp4";
-const urlvideo4 = "/assets/0004.mp4";
-const urlvideo5 = "/assets/0005.mp4";
-const urlvideo6 = "/assets/0006.mp4";
-const urlvideo7 = "/assets/0007.mp4";
-const urlCHARACTER = "/assets/CHARACTER.webp";
+const urlScout = "/assets/Scout_Metagunner.mp4";
+const urlOfficer = "/assets/Officer_Metagunner.mp4";
+const urlSniper = "/assets/Sniper_Metagunner.mp4";
+const urlSpecial_Force = "/assets/Special-Force_Metagunner.mp4";
+const urlDestroyer = "/assets/Destroyer_Metagunner.mp4";
+const urlGunner = "/assets/Gunner_Metagunner.mp4";
+const urlMedic = "/assets/Medic_Metagunner.mp4";
+const urlCHARACTER = "/assets/CHARACTER_Metagunner.webp";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -103,7 +103,7 @@ export default class AsNavFor extends Component {
               </span>
             </div>
             <video
-              src={urlvideo6}
+              src={urlGunner}
               autoPlay="autoplay"
               muted="muted"
               loop="loop"
@@ -119,7 +119,7 @@ export default class AsNavFor extends Component {
               </span>
             </div>
             <video
-              src={urlvideo1}
+              src={urlScout}
               autoPlay="autoplay"
               muted="muted"
               loop="loop"
@@ -131,7 +131,7 @@ export default class AsNavFor extends Component {
               <span>{`No one has ever seen him, and no one wants to be his enemy because you will never know when he's gonna get you. His targets never survive, but the witnesses said there was a whistle before the kill.`}</span>
             </div>
             <video
-              src={urlvideo3}
+              src={urlSniper}
               autoPlay="autoplay"
               muted="muted"
               loop="loop"
@@ -147,7 +147,7 @@ export default class AsNavFor extends Component {
               </span>
             </div>
             <video
-              src={urlvideo4}
+              src={urlSpecial_Force}
               autoPlay="autoplay"
               muted="muted"
               loop="loop"
@@ -163,7 +163,7 @@ export default class AsNavFor extends Component {
               </span>
             </div>
             <video
-              src={urlvideo5}
+              src={urlDestroyer}
               autoPlay="autoplay"
               muted="muted"
               loop="loop"
@@ -181,7 +181,7 @@ export default class AsNavFor extends Component {
               </span>
             </div>
             <video
-              src={urlvideo7}
+              src={urlMedic}
               autoPlay="autoplay"
               muted="muted"
               loop="loop"
@@ -196,7 +196,7 @@ export default class AsNavFor extends Component {
               </span>
             </div>
             <video
-              src={urlvideo2}
+              src={urlOfficer}
               autoPlay="autoplay"
               muted="muted"
               loop="loop"

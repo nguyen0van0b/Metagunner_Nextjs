@@ -1,10 +1,10 @@
 import style from "./features.module.scss";
 import clsx from "clsx";
-const urlFEATURES = "/assets/GAME-FEATURES.webp";
-const urlImgCam = "/assets/CampaignMode.webp";
-const urlImgArena = "/assets/Arena_Mode.webp";
-const urlImgUpgrade = "/assets/FEATURES4.webp";
-const urlImgRank = "/assets/RANKING.webp";
+const urlFEATURES = "/assets/GAME-FEATURES_Metagunner.webp";
+const urlImgCam = "/assets/CampaignMode_Metagunner.webp";
+const urlImgArena = "/assets/Arena_Mode_Metagunner.webp";
+const urlImgUpgrade = "/assets/FEATURES4_Metagunner.webp";
+const urlImgRank = "/assets/RANKING_Metagunner.webp";
 
 function Features() {
   return (

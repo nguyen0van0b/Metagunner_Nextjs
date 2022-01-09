@@ -1,14 +1,14 @@
 import style from './TEAM.module.scss'
-const urlImgPHU = '/assets/PHU.webp'
-const urlImgHO = '/assets/HO-ANH.webp'
-const urlImgDUONG = '/assets/DUONG.webp'
-const urlImgTAN = '/assets/TAN.webp'
-const urlImgAN = '/assets/AN.webp'
-const urlImgTHIEN = '/assets/THIEN.webp'
-const urlImgPHUOC = '/assets/PHUOC.webp'
-const urlImgMINH = '/assets/MINH.webp'
-const urlImgMEO = '/assets/MEO.webp'
-const urlTitle = '/assets/Team.webp'
+const urlImgAndy_Ly = '/assets/Andy_Ly_Metagunner.webp'
+const urlImgHO = '/assets/HO-ANH_Metagunner.webp'
+const urlImgDUONG = '/assets/DUONG_Metagunner.webp'
+const urlImgTAN = '/assets/TAN_Metagunner.webp'
+const urlImgAN = '/assets/AN_Metagunner.webp'
+const urlImgTHIEN = '/assets/THIEN_Metagunner.webp'
+const urlImgSteven = '/assets/Steven_Metagunner.webp'
+const urlImgMINH = '/assets/MINH_Metagunner.webp'
+const urlImgMee_Ahn = '/assets/Mee-Ahn_Metagunner.webp'
+const urlTitle = '/assets/Team_Metagunner.webp'
 
 function Advisors(){
     return(
@@ -17,12 +17,11 @@ function Advisors(){
             <div className={style.AdvisorsTitle}>
                 <img src={urlTitle} alt=""/>
             </div>
-            {/* <h2 className="title" data-aos="fade-up">Our <span>TEAM</span></h2> */} 
         </div>
             <div className={style.AdvisorsWrapperTop}>
                 <div className={style.AdvisorsWrapperTopItem} data-aos="zoom-in-up" data-aos-once="true" data-aos-delay="200">
                     <div className={style.AdvisorsWrapperTopItemTop}>
-                        <img src={urlImgPHU} alt=""/>
+                        <img src={urlImgAndy_Ly} alt=""/>
                     </div>
                     <div className={style.AdvisorsWrapperTopItemBottom}>
                         <div className={style.name}>
@@ -67,7 +66,6 @@ function Advisors(){
                         2+ years experience as Blockchain Developer</div>
                     </div>
                 </div>
-                
                 <div className={style.AdvisorsWrapperTopItem} data-aos="zoom-in-up" data-aos-once="true" data-aos-delay="200">
                     <div className={style.AdvisorsWrapperTopItemTop}>
                         <img src={urlImgDUONG} alt=""/>
@@ -88,7 +86,7 @@ function Advisors(){
             <div className={style.AdvisorsWrapperBottom}>
                 <div className={style.AdvisorsWrapperBottomItem} data-aos="zoom-in-up" data-aos-once="true" data-aos-delay="400">
                     <div className={style.AdvisorsWrapperBottomItemTop}>
-                        <img src={urlImgPHUOC} alt=""/>
+                        <img src={urlImgSteven} alt=""/>
                     </div>
                     <div className={style.AdvisorsWrapperBottomItemBottom}>
                         <div className={style.name} href="">
@@ -121,7 +119,7 @@ function Advisors(){
                 </div>
                 <div className={style.AdvisorsWrapperBottomItem} data-aos="zoom-in-up" data-aos-once="true" data-aos-delay="600">
                     <div className={style.AdvisorsWrapperBottomItemTop}>
-                        <img src={urlImgMEO} alt=""/>
+                        <img src={urlImgMee_Ahn} alt=""/>
                     </div>
                     <div className={style.AdvisorsWrapperBottomItemBottom}>
                         <div className={style.name}>
@@ -141,8 +139,6 @@ function Advisors(){
                         <p>Communications Leader</p>
                     </div>
                 </div>
-               
-                
             </div>
     </section>
     )

@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import style from "./about.module.scss";
 import clsx from "clsx";
-const urlimg5 = "/assets/metagunner-namngang.webp";
-const urlImgBg = "/assets/banner-9.webp";
+const urlimg5 = "/assets/metagunner-title.webp";
+const urlImgBg = "/assets/banner_Metagunner.webp";
 
 function About() {
   useEffect(() => {
@@ -20,13 +20,12 @@ function About() {
         <img src={urlImgBg} className={style.imgBg} alt="" />
         <div className={style.aboutWrapper}>
           <img src={urlimg5} alt="" />
-          <p data-aos="zoom-in" data-aos-delay="200">
-            {" "}
+          <h1 data-aos="zoom-in" data-aos-delay="200">
             A world where you can immerse yourself in battles located in a
             barren wilderness inhabited by monsters. Grab your friends and get
             ready to earn valuable rewards and enjoy the moment after stressful
             hours of work.
-          </p>
+          </h1>
           <a
             href="https://gleam.io/6ZTmw/metagunner-first-airdrop-event"
             className={clsx("btn btnPrimary", style.btnMB)}

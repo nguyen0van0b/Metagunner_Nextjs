@@ -1,6 +1,6 @@
 import style from './tokenomics.module.scss'
-const urlImg = '/assets/tokenomics.25d3c6dd.webp'
-const urlTitle = '/assets/Tokenomics.webp'
+const urlImg = '/assets/tokenomics.25d3c6dd_Metagunner.webp'
+const urlTitle = '/assets/Tokenomics_Metagunner.webp'
 
 function Tokenomics(){
     return(

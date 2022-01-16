@@ -41,7 +41,7 @@
             //         color: var(--color_primary);
             //     }
             // }
-            & p {
+            &>p {
                 font-weight: 600;
                 color: var(--color_text_white);
                 margin-bottom: 15px;
@@ -56,6 +56,10 @@
                 & li span:first-child {
                     display: inline-block;
                     width: 70%;
+                }
+                & li p{
+                    font-size: 1.1rem;
+                    font-style: italic;
                 }
             }
         }
@@ -131,8 +135,23 @@
                     & li span:first-child {
                         width: 70%;
                     }
+                    & li p{
+                        font-size: 1rem;
+                    }
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tokenomicsWrapperContent p{
+        width: 120%;
+        margin-left: -10%;
+        font-size: 1.1rem;
+    }
+    .tokenomicsWrapperContentList>li>p{
+        padding-left: 8%;
+        font-size: 0.9rem;
     }
 }

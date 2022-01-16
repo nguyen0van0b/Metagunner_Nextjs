@@ -1,6 +1,7 @@
 .Vidwrapper{
     overflow: hidden;
     position: relative;
+    height: 51vw;
     & .banner_PC{
         position: relative;
         height: 50vw;
@@ -29,6 +30,7 @@
 @media screen and (max-width: 600px) {
     
     .Vidwrapper{
+        height: 100%;
         & .banner_PC{
             display: none;
             & img{

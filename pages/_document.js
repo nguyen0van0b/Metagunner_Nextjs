@@ -14,20 +14,32 @@ class MyDocument extends Document {
           <link rel="apple-touch-icon" href="/assets/Logo.png" />
           <meta
             name="description"
-            content="MetaGunner is a world where you can immerse yourself in battles located in a barren wilderness inhabited by monsters. Grab your friends and get ready to earn valuable rewards and enjoy the moment after stressful hours of work."
+            content="The Leading Run & Gun Game on BSC."
           />
           <meta property="og:title" content="MetaGunner" />
           <meta property="og:site_name" content="MetaGunner" />
           <meta property="og:url" content="https://metagunner.io/" />
           <meta
             property="og:description"
-            content="MetaGunner is a world where you can immerse yourself in battles located in a barren wilderness inhabited by monsters. Grab your friends and get ready to earn valuable rewards and enjoy the moment after stressful hours of work."
+            content="The Leading Run & Gun Game on BSC."
           />
           <meta property="og:image" content="/assets/Thumbnail_Metagunner.png" />
           <meta property="og:image:type" content="image/png" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
           <meta property="og:type" content="website" />
+
+          <meta name="twitter:card" value="summary"/>
+          <meta name="twitter:url" content="https://metagunner.io/" />
+          <meta name="twitter:title" content="MetaGunner" />
+          <meta
+            name="twitter:description"
+            content="The Leading Run & Gun Game on BSC."
+          />
+          <meta name="twitter:image" content="/assets/Thumbnail_Metagunner.png" />
+          <meta name="twitter:site" content="@MetaGunner_io" />
+          <meta name="twitter:creator" content="@MetaGunner_io"></meta>
+
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-QKN1HXMBLY"

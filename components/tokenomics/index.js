@@ -26,6 +26,8 @@ function Tokenomics(){
                             <li><span>Liquidity:</span><span>10%</span></li>
                             <li><span>Marketing:</span><span>14%</span></li>
                             <li><span>Ecosystem:</span><span>39%</span></li>
+                            <li><p>(including Staking,Treasure)</p></li>
+                            
                         </ul>
                         {/* <a href="#" className={clsx('btn btnPrimary',style.button)} target="_blank" rel="noopener noreferrer">Read More</a> */}
                     </div>

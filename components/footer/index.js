@@ -45,7 +45,7 @@ function Footer(){
                 <div className={style.footerMenuFAQ}>
                     <h2>FAQ</h2>
                     <ul>
-                        <li><a href="https://whitepaper.metagunner.io/game-features/disclaimer" target="_blank" rel="noreferrer">Disclaimer</a></li>
+                        <li><a href="https://whitepaper.metagunner.io/faq/disclaimer" target="_blank" rel="noreferrer">Disclaimer</a></li>
                         <li><a href="https://whitepaper.metagunner.io/" target="_blank" rel="noreferrer">Whitepaper</a></li>
                         <li><a href="mailto:contact@metagunner.io">Contact@metagunner.io</a></li>
                     </ul>

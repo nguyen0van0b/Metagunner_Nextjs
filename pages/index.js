@@ -9,6 +9,7 @@ import Basecamp from "../components/basecamp";
 import Roadmap from "../components/roadmap";
 import Tokenomics from "../components/tokenomics";
 import TEAM from "../components/TEAM";
+import Partners from "../components/partners";
 // import {
 //   Vidwrapper,
 //   About,
@@ -54,6 +55,7 @@ function Home() {
       <Roadmap />
       <Tokenomics />
       <TEAM />
+      <Partners />
       <Footer />
     </Layout>
   );

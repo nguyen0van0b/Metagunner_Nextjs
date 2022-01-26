@@ -27,14 +27,14 @@ function About() {
             hours of work.
           </h1>
           <a
-            href="https://gleam.io/6ZTmw/metagunner-first-airdrop-event"
+            href="https://drive.google.com/file/d/1VnfYeY06nvHLtG-8IvbJEX9avpFSyO4l/view"
             className={clsx("btn btnPrimary", style.btnMB)}
             target="_blank"
             rel="noreferrer"
             data-aos="zoom-in"
             data-aos-delay="400"
           >
-            Airdrop
+            Lite Paper
           </a>
           <a
             className={clsx("btn btnSecondary", style.btnMB)}

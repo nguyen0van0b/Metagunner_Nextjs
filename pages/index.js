@@ -10,6 +10,8 @@ import Roadmap from "../components/roadmap";
 import Tokenomics from "../components/tokenomics";
 import TEAM from "../components/TEAM";
 import Partners from "../components/partners";
+import Technology from "../components/Technology";
+
 // import {
 //   Vidwrapper,
 //   About,
@@ -55,7 +57,8 @@ function Home() {
       <Roadmap />
       <Tokenomics />
       <TEAM />
-      <Partners />
+      {/* <Partners /> */}
+      <Technology />
       <Footer />
     </Layout>
   );

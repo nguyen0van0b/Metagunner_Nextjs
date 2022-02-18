@@ -2,10 +2,10 @@
 import style from './roadmap.module.scss'
 import clsx from 'clsx'
 const urlTitle = '/assets/Roadmap_Metagunner.webp'
-const urlItem1 = '/assets/Q4_2021_Metagunner.webp'
-const urlItem2 = '/assets/Q1_2022_Metagunner.webp'
-const urlItem3 = '/assets/Q2_2022_Metagunner.webp'
-const urlItem4 = '/assets/Q3_2022_Metagunner.webp'
+const urlItem1 = '/assets/Q1_2022_Metagunner.webp'
+const urlItem2 = '/assets/Q2_2022_Metagunner.webp'
+const urlItem3 = '/assets/Q3_2022_Metagunner.webp'
+const urlItem4 = '/assets/Q4_2022_Metagunner.webp'
 
 function Roadmap(){
     return(

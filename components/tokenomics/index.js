@@ -17,16 +17,19 @@ function Tokenomics(){
                         {/* <div className={style.tokenomicsWrapperContentTitle}>
                             TOKENOMICS <span>DISTRUBUTION</span>
                         </div> */}
-                        <p>Total Supply: <span>200,000,000 $MTG</span> </p>
+                        <p>Total Supply: <span>400,000,000 $MTG</span> </p>
                         <ul className={style.tokenomicsWrapperContentList}>
-                            <li><span>Private Round:</span><span>14%</span></li>
-                            <li><span>Public Round:</span><span>1%</span></li>
-                            <li><span>Team:</span><span>15%</span></li>
-                            <li><span>Advisors & Partners:</span><span>7%</span></li>
-                            <li><span>Liquidity:</span><span>10%</span></li>
-                            <li><span>Marketing:</span><span>14%</span></li>
-                            <li><span>Ecosystem:</span><span>39%</span></li>
-                            <li><p>(including Staking,Treasure)</p></li>
+                            <li><span>Private sale:</span><span>14%</span></li>
+                            <li><span>Public sale:</span><span>2%</span></li>
+                            <li><span>Treasury:</span><span>10%</span></li>
+                            <li><span>Play to earn:</span><span>28.5%</span></li>
+                            <li><span>Marketing & Ecosystem:</span><span>11%</span></li>
+                            <li><span>Team:</span><span>20%</span></li>
+                            <li><span>Advisors & Partners:</span><span>4%</span></li>
+                            <li><span>Liquidity:</span><span>5%</span></li>
+                            <li><span>Airdrop:</span><span>0.5%</span></li>
+                            <li><span>Reserve:</span><span>5%</span></li>
+                            {/* <li><p>(including Staking,Treasure)</p></li> */}
                             
                         </ul>
                         {/* <a href="#" className={clsx('btn btnPrimary',style.button)} target="_blank" rel="noopener noreferrer">Read More</a> */}

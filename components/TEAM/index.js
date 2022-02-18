@@ -37,37 +37,6 @@ function Advisors(){
                 </div>
                 <div className={style.AdvisorsWrapperTopItem} data-aos="zoom-in-up" data-aos-once="true" data-aos-delay="200">
                     <div className={style.AdvisorsWrapperTopItemTop}>
-                        <img src={urlImgHO} alt=""/>
-                    </div>
-                    <div className={style.AdvisorsWrapperTopItemBottom}>
-                        <div className={style.name}>
-                            <h5>Ho Le</h5>
-                        </div>
-                        <div className={style.position}>Chief Operating Officer</div>
-                        <div className={style.background}>
-                        Founder of Nuca Streaming Entertainment<br></br><br></br>
-                        Founder of Nuca<br></br><br></br>
-                        4+ years of experience in software engineering at top software companies in Vietnam: Sunshine Tech, Plustus Fintech, Transaction Technologies, Shopiness, SPLUS-SOFTWARE</div>
-                    </div>
-                </div>
-                <div className={style.AdvisorsWrapperTopItem} data-aos="zoom-in-up" data-aos-once="true" data-aos-delay="200">
-                    <div className={style.AdvisorsWrapperTopItemTop}>
-                        <img src={urlImgTAN} alt=""/>
-                    </div>
-                    <div className={style.AdvisorsWrapperTopItemBottom}>
-                        <div className={style.name}>
-                            <h5>Tony Pham</h5>
-                        </div>
-                        <div className={style.position}>Chief Technology Officer</div>
-                        <div className={style.background}>
-                        Chief Technology Officer of Nuca<br></br><br></br>
-                        Chief Technology Officer of Nuca Streaming Entertainment<br></br><br></br>
-                        3+ years experience as Full-stack Developer in Transaction Technologies for the stock market<br></br><br></br>
-                        2+ years experience as Blockchain Developer</div>
-                    </div>
-                </div>
-                <div className={style.AdvisorsWrapperTopItem} data-aos="zoom-in-up" data-aos-once="true" data-aos-delay="200">
-                    <div className={style.AdvisorsWrapperTopItemTop}>
                         <img src={urlImgDUONG} alt=""/>
                     </div>
                     <div className={style.AdvisorsWrapperTopItemBottom}>
